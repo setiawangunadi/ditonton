@@ -1,17 +1,18 @@
 import 'package:ditonton/common/constants.dart';
 import 'package:ditonton/common/utils.dart';
+import 'package:ditonton/injection.dart' as di;
 import 'package:ditonton/presentation/pages/about_page.dart';
-import 'package:ditonton/presentation/pages/movie/movie_detail_page.dart';
 import 'package:ditonton/presentation/pages/movie/home_movie_page.dart';
+import 'package:ditonton/presentation/pages/movie/movie_detail_page.dart';
 import 'package:ditonton/presentation/pages/movie/popular_movies_page.dart';
-import 'package:ditonton/presentation/pages/tv_series/home_tv_series_page.dart';
-import 'package:ditonton/presentation/pages/tv_series/popular_tv_series_page.dart';
 import 'package:ditonton/presentation/pages/movie/search_page.dart';
 import 'package:ditonton/presentation/pages/movie/top_rated_movies_page.dart';
-import 'package:ditonton/presentation/pages/tv_series/search_tv_page.dart';
+import 'package:ditonton/presentation/pages/movie/watchlist_movies_page.dart';
+import 'package:ditonton/presentation/pages/tv_series/home_tv_series_page.dart';
+import 'package:ditonton/presentation/pages/tv_series/popular_tv_series_page.dart';
+import 'package:ditonton/presentation/pages/tv_series/search_tv_series_page.dart';
 import 'package:ditonton/presentation/pages/tv_series/top_rated_tv_series_page.dart';
 import 'package:ditonton/presentation/pages/tv_series/tv_series_detail_page.dart';
-import 'package:ditonton/presentation/pages/movie/watchlist_movies_page.dart';
 import 'package:ditonton/presentation/pages/tv_series/watchlist_tv_series_page.dart';
 import 'package:ditonton/presentation/provider/movie/movie_detail_notifier.dart';
 import 'package:ditonton/presentation/provider/movie/movie_list_notifier.dart';
@@ -28,7 +29,6 @@ import 'package:ditonton/presentation/provider/tv/watchlist_tv_notifier.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:ditonton/injection.dart' as di;
 
 void main() {
   di.init();
@@ -107,8 +107,8 @@ class MyApp extends StatelessWidget {
               );
             case WatchlistTvSeriesPage.ROUTE_NAME:
               return MaterialPageRoute(builder: (_) => WatchlistTvSeriesPage());
-            case SearchTvPage.ROUTE_NAME:
-              return MaterialPageRoute(builder: (_) => SearchTvPage());
+            case SearchTvSeriesPage.ROUTE_NAME:
+              return MaterialPageRoute(builder: (_) => SearchTvSeriesPage());
             //Movies
             case HomeMoviePage.ROUTE_NAME:
               return MaterialPageRoute(builder: (_) => HomeMoviePage());

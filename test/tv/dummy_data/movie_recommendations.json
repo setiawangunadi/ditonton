@@ -1,0 +1,477 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/i5WyNy4tVmRbcOvTfYXWuEpTNK7.jpg",
+      "id": 12926,
+      "name": "Teresa",
+      "original_language": "es",
+      "original_name": "Teresa",
+      "overview": "Teresa Chavez is a young woman with an obsession for money and ambition. Despite her beauty and the fact that she was raised in the bosom of a loving family, she is resentful; her one desire is to leave her humble but poor neighbourhood.",
+      "poster_path": "/5Thydptu5Ym3mq0XTGJXpdl624Y.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10766,
+        18,
+        10767
+      ],
+      "popularity": 106.817,
+      "first_air_date": "2010-08-02",
+      "vote_average": 7.7,
+      "vote_count": 1709,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oAkpvVvoyZWMo9cpNk3aQoVKsjM.jpg",
+      "id": 67335,
+      "name": "Sin senos sí hay paraíso",
+      "original_language": "es",
+      "original_name": "Sin senos sí hay paraíso",
+      "overview": "A young woman born in a mafia-controlled town seeks revenge on those who wrongfully harmed and imprisoned her family.",
+      "poster_path": "/7lBJ6lOS0uQqsH13U9iMTikawQS.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10759,
+        80,
+        18,
+        9648
+      ],
+      "popularity": 910.972,
+      "first_air_date": "2016-07-19",
+      "vote_average": 7.56,
+      "vote_count": 2745,
+      "origin_country": [
+        "CO",
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qTrWyJL5fCRiUPHaqlGZt8prSA5.jpg",
+      "id": 33761,
+      "name": "Triumph of Love",
+      "original_language": "es",
+      "original_name": "Triunfo del amor",
+      "overview": "A love story between a young girl wishing to become a professional model and a rich boy who works in a fashion house and falls in love with her.",
+      "poster_path": "/qjuI9tYDJikLcomkFLwkKoOAagm.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10766
+      ],
+      "popularity": 528.759,
+      "first_air_date": "2010-10-25",
+      "vote_average": 7.7,
+      "vote_count": 458,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jrQ5n8Gm7Qv9mEa5lH17s3EZ8pk.jpg",
+      "id": 66579,
+      "name": "The Three Sides of Ana",
+      "original_language": "es",
+      "original_name": "Tres veces Ana",
+      "overview": "Over a road trip, triplets Ana Laura, Ana Leticia, and Ana Lucía, along with their parents, suffer a dramatic accident crashing by the side of a river. The consequences of this event are catastrophic: Both parents die, Ana Laura loses one leg, and Ana Lucía, unconscious, is dragged by the river’s flow. Only Ana Leticia, who actually caused the accident, emerges unscathed. Soledad, a woman who was seriously hurt after her daughter’s death, helps Ana Lucía, whom she finds agonizing. Although Soledad discovers who the girl is, she takes advantage of her memory loss regarding the accident and her family and decides to keep her, making her believe she is her mother. Despite everyone declares Ana Lucía is death, Ernestina, the triplets' grandmother, and Ramiro, their uncle, don’t give up and do everything they can to find Ana Lucía. But years go by, the same as their wishful",
+      "poster_path": "/nHURRha9cvKI6LaFVl7gbfEaGjt.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10766,
+        18
+      ],
+      "popularity": 255.515,
+      "first_air_date": "2016-05-23",
+      "vote_average": 7.1,
+      "vote_count": 304,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qabMMIpNUUKYFqQxHEWErEEBD8G.jpg",
+      "id": 11250,
+      "name": "Pasión de Gavilanes",
+      "original_language": "es",
+      "original_name": "Pasión de gavilanes",
+      "overview": "The Reyes-Elizondo's idyllic lives are shattered by a murder charge against Eric and León.",
+      "poster_path": "/91UV7pNcDPhIzJl7EuK36sK5vRG.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 519.594,
+      "first_air_date": "2003-10-21",
+      "vote_average": 7.646,
+      "vote_count": 1975,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nDh9cvt64J3gD1wxxxfR85jiEmB.jpg",
+      "id": 12782,
+      "name": "Marimar",
+      "original_language": "es",
+      "original_name": "Marimar",
+      "overview": "Story of love between Marimar and Sergio. Sergio is from a wealthy family, and Marimar lives with her poor grandparents in a hut in front of the ocean.",
+      "poster_path": "/eoJkLbQPTHYb0XgrsrH7mc8syY.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        10766
+      ],
+      "popularity": 156.309,
+      "first_air_date": "1994-01-31",
+      "vote_average": 7.0,
+      "vote_count": 738,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5ssgDp28z1Nif6hR8OFrNQUspd4.jpg",
+      "id": 45815,
+      "name": "Brazil Avenue",
+      "original_language": "pt",
+      "original_name": "Avenida Brasil",
+      "overview": "Brazil Avenue is a dynamic, lifelike, and modern telenovela that reveals how unrelenting ambition and inflicted cruelty can change a young girl’s destiny and lead her to seek revenge.\n\n",
+      "poster_path": "/3wH4kZ0hdoizAcgqCgp3gUD1fFq.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        9648,
+        10766,
+        80
+      ],
+      "popularity": 68.349,
+      "first_air_date": "2012-03-26",
+      "vote_average": 8.087,
+      "vote_count": 1194,
+      "origin_country": [
+        "BR"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sPq849vRmn7Q32nMwrlTl2wS88g.jpg",
+      "id": 72248,
+      "name": "No Trace of You",
+      "original_language": "es",
+      "original_name": "Sin rastro de ti",
+      "overview": "The night before her wedding, Julia, a young pediatrician with a promising future, vanishes without leaving a trace behind. \n\nFive years later, in the middle of the road, a college student discovers a woman in a wedding gown, alone and confused. The boy takes her to the nearest hospital. On the way, the woman gets to reveal her name: Julia Borges. \n\nJulia has no memory on what happened to her in those five years. All she has is an image she just can’t get out of her mind: A man she doesn’t recognize who promises to always look after her. \n\nMauricio, Julia’s fiancée, has moved on believing she is death. He is married and has a one year old kid. His new wife: Camila, Julia’s conflictive little sister. \n\nThe only person who got his hopes up about finding Julia was Tomás, her best friend and workmate. Tomás has invested all his money, ruined his marriage, and almost went bankrupt trying to discover her whereabouts. The reason? He has always been in love with her. \n\nJulia tries to face this new reality in which the man she loves is married to someone else and all her life projects came to nothing. Meanwhile, she is trying to find clues that can reveal what happened to her in those lost years and who is responsible for her disappearing.",
+      "poster_path": "/4I70tn6iJxPM7jLfNoH6DuPYWaA.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        9648,
+        10765,
+        10766
+      ],
+      "popularity": 12.812,
+      "first_air_date": "2016-09-09",
+      "vote_average": 7.0,
+      "vote_count": 159,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uDadf0pmGDXgkiRP7xJICWkSHVV.jpg",
+      "id": 96462,
+      "name": "It's Okay to Not Be Okay",
+      "original_language": "ko",
+      "original_name": "사이코지만 괜찮아",
+      "overview": "Desperate to escape from his emotional baggage and the heavy responsibility he’s had all his life, a psychiatric ward worker begins to heal with help from the unexpected – a woman who writes fairy tales but doesn’t believe in them.",
+      "poster_path": "/6CvvTWcw9vSf5Zpgeot2ppE0P2D.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "popularity": 95.945,
+      "first_air_date": "2020-06-20",
+      "vote_average": 8.545,
+      "vote_count": 1213,
+      "origin_country": [
+        "KR"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eT92Kj5vvFr9EomAwaWo9gzP7ry.jpg",
+      "id": 13027,
+      "name": "Amor Real",
+      "original_language": "es",
+      "original_name": "Amor Real",
+      "overview": "True love threatens to tear a family apart in this epic Mexican serial set in the 1800s. Rich and beautiful Matilde falls in love with Adolfo, but her mother, Augusta, disapproves of the relationship when she learns Adolfo is poor. Augusta forces her daughter to marry rich and handsome Manuel Fuentes Guerra, but Matilde plays with fire by continuing to be with Adolfo. Adela Noriega, Fernando Colunga, Helena Rojo and Chantal Andere star.",
+      "poster_path": "/leUsrci2EpuIj2PZQt3nZgbZHae.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10766,
+        18
+      ],
+      "popularity": 143.986,
+      "first_air_date": "2003-06-09",
+      "vote_average": 7.722,
+      "vote_count": 1083,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9PJl6qubokov6PxEdkWyZdF3vuK.jpg",
+      "id": 46901,
+      "name": "True Love",
+      "original_language": "es",
+      "original_name": "Amores verdaderos",
+      "overview": "Amores verdaderos is a 2012 Mexican telenovela produced by Nicandro Díaz Gonzalez for Televisa. It is based on Amor en Custodia, produced in Colombia, Argentina, and Mexico.",
+      "poster_path": "/vcinDWUP7qvFDVPaArnZgVgy4bE.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 51.734,
+      "first_air_date": "2012-09-03",
+      "vote_average": 7.671,
+      "vote_count": 668,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4MV0zUHCs1cV4N5iQefoO5omTQ9.jpg",
+      "id": 18341,
+      "name": "Sortilegio",
+      "original_language": "es",
+      "original_name": "Sortilegio",
+      "overview": "Sortilegio is a Mexican telenovela produced by Carla Estrada for Televisa and stars Jacqueline Bracamontes and William Levy. It is a remake of Tú o nadie.\n\nFrom October 6, 2009 to February 17, 2010, Univision broadcast Sortilegio weeknights at 9pm/8c. From July 30 to September 7, 2012, Univision broadcast 2 hour reruns of Sortilegio weekdays at 1pm/12c, replacing Corazón Apasionado. From September 10 to October 19, 2012, reruns of Sortilegio were broadcast at 2pm/1c.",
+      "poster_path": "/ZbasUYGZxdjJ4LuiDOTHDrmFEo.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        10751,
+        10766
+      ],
+      "popularity": 66.905,
+      "first_air_date": "2009-06-01",
+      "vote_average": 7.6,
+      "vote_count": 370,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eN7lfv9y8Y8xJ4orFzh0JAbr0SW.jpg",
+      "id": 44824,
+      "name": "Pasión prohibida",
+      "original_language": "es",
+      "original_name": "Pasión prohibida",
+      "overview": "Pasión Prohibida is a Spanish-language telenovela produced by United States-based television network Telemundo Television Studios, Miami. It is a remake of the Turkish telenovela Aşk-ı Memnu by Ece Yörenç and Melek Gençoğlu. It has been adapted from Halit Ziya Uşaklıgil's novel Aşk-ı Memnu, published in 1900, but takes place in the modern-day Miami, instead of the novel's late 19th century setting. Jencarlos Canela and Mónica Spear starred as the protagonists.",
+      "poster_path": "/uA5nvnaSBr6SIqPPgSeIPZMRKtC.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 68.258,
+      "first_air_date": "2013-01-22",
+      "vote_average": 7.9,
+      "vote_count": 464,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9qq8LpOoBLYq8MxiMugn0gf9qJd.jpg",
+      "id": 104877,
+      "name": "Love Is in the Air",
+      "original_language": "tr",
+      "original_name": "Sen Çal Kapımı",
+      "overview": "Eda, who ties all her hopes to her education, confronts Serkan Bolat, who cuts off her international education scholarship and leaves her with high school diploma. Serkan Bolat offers Eda to give her scholarship back if she pretends to be his fiance for two months. Although Eda rejects the offer of this man as she hates him, she has to accept it when the conditions change. While pretending to be engaged, Serkan and Eda begin to experience a passionate, challenging relationship that will make them forget all they know right. Because love is difficult. And that's why it's amazing.",
+      "poster_path": "/8PHgxbfKQBPMIT3N8r9X5GpBdKl.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "popularity": 321.752,
+      "first_air_date": "2020-07-08",
+      "vote_average": 8.2,
+      "vote_count": 2980,
+      "origin_country": [
+        "TR"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/f534JE987WoKVUZ6l2aSACzr3IJ.jpg",
+      "id": 83596,
+      "name": "Amar a Muerte",
+      "original_language": "es",
+      "original_name": "Amar a Muerte",
+      "overview": "",
+      "poster_path": "/sdBP4fFzHqxaROw7h4OWCuvrHmv.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        10766
+      ],
+      "popularity": 173.268,
+      "first_air_date": "2018-10-29",
+      "vote_average": 7.8,
+      "vote_count": 510,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6pquLTX8cNRkt8k5izHthxRf0H6.jpg",
+      "id": 4616,
+      "name": "Xena: Warrior Princess",
+      "original_language": "en",
+      "original_name": "Xena: Warrior Princess",
+      "overview": "Xena is an infamous warrior on a quest to seek redemption for her past sins against the innocent. Accompanied her comrade-in-arms Gabrielle, the campy couple use their formidable fighting skills to help those who are unable to defend themselves.",
+      "poster_path": "/qjUn6GVZVDifLHB7bvVrgZsOfzE.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        10759,
+        10765
+      ],
+      "popularity": 1400.124,
+      "first_air_date": "1995-09-04",
+      "vote_average": 7.581,
+      "vote_count": 1215,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/q2na8PTaxH2csJUM035M2Zoj90q.jpg",
+      "id": 109470,
+      "name": "Imperio De Mentiras",
+      "original_language": "es",
+      "original_name": "Imperio De Mentiras",
+      "overview": "Elisa Cantú never imagined that, upon returning to Mexico from New York, where she resides, she would encounter an unexpected tragedy that changes her life. The night Elisa would celebrate her birthday, fate leads her to meet Leonardo Velasco, a policeman in love with Julia, a teacher, to whom he was to marry. At the end of the evening, Leonardo receives an emergency call, in which the discovery of two bodies is reported, one of them is that of his fiancée, who lies next to the body of Augusto Cantú, millionaire businessman and father of Elisa. Elisa and Leonardo will come together to search for the truth of what happened.",
+      "poster_path": "/5adCPn5cthQcTN1q1e45gYD6v3Z.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        10759,
+        10766,
+        99
+      ],
+      "popularity": 238.014,
+      "first_air_date": "2020-09-14",
+      "vote_average": 7.5,
+      "vote_count": 348,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/l0TTZYmYMH1BF39R8WyhekE231P.jpg",
+      "id": 58450,
+      "name": "What Life Took From Me",
+      "original_language": "es",
+      "original_name": "Lo Que La Vida Me Robó",
+      "overview": "\"What Life Took From Me\" is a Mexican telenovela produced by Angelli Nesma Medina for Televisa. It is a remake of Bodas de odio, produced by Ernesto Alonso in 1983. In 2003, \"True Love\", the first remake, was produced by Carla Estrada. Unlike Bodas de odio and \"True Love\", \"What Life Took From Me\" has been adapted to the present time.",
+      "poster_path": "/hHtfaqrGmpvgk6I6ARsqNcOoz9b.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 231.309,
+      "first_air_date": "2013-10-28",
+      "vote_average": 7.711,
+      "vote_count": 1235,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5X3Alv6EbDugs4YzUYLyqGT0YJE.jpg",
+      "id": 62066,
+      "name": "Ask God For Forgiveness... Not Me",
+      "original_language": "es",
+      "original_name": "Que te Perdone Dios... Yo No",
+      "overview": "The story of Renata Flores del Angel, a young woman from a wealthy family who falls for Pablo Ramos, the foreman of her father's estate.",
+      "poster_path": "/t7rEhuowbJXUPdRAMVuTgQ6s7Wh.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        10766
+      ],
+      "popularity": 67.115,
+      "first_air_date": "2015-01-19",
+      "vote_average": 6.9,
+      "vote_count": 135,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fsbZAdbojecotA4mpdVOuehpdjO.jpg",
+      "id": 92433,
+      "name": "The Usurper",
+      "original_language": "es",
+      "original_name": "La Usurpadora",
+      "overview": "A humble young woman allows herself be manipulated by her twin sister to replace her so she can leave with another man.",
+      "poster_path": "/fnBu7Ym3WeMZy2goTl3c2YReVqE.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        10766
+      ],
+      "popularity": 42.83,
+      "first_air_date": "2019-09-02",
+      "vote_average": 6.9,
+      "vote_count": 314,
+      "origin_country": [
+        "MX"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6zzyWTu3p2Diztotbnb0kf128uo.jpg",
+      "id": 47,
+      "name": "El Chavo del Ocho",
+      "original_language": "es",
+      "original_name": "El Chavo del Ocho",
+      "overview": "The mishaps of Chavo, an 8-year-old orphan boy who lives in a barrel. Together with Quico, Chilindrina, Ñoño and La Popis, Chavo experiences a series of humorous entanglements.",
+      "poster_path": "/d2xJ6xmrchmnVL0S9gsbiGHskxp.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        35,
+        10751,
+        18
+      ],
+      "popularity": 406.273,
+      "first_air_date": "1973-02-26",
+      "vote_average": 7.949,
+      "vote_count": 1808,
+      "origin_country": [
+        "MX"
+      ]
+    }
+  ],
+  "total_pages": 2,
+  "total_results": 40
+}

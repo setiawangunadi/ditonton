@@ -3,7 +3,7 @@ import 'package:ditonton/common/constants.dart';
 import 'package:ditonton/common/state_enum.dart';
 import 'package:ditonton/domain/entities/televisi.dart';
 import 'package:ditonton/presentation/pages/tv_series/popular_tv_series_page.dart';
-import 'package:ditonton/presentation/pages/tv_series/search_tv_page.dart';
+import 'package:ditonton/presentation/pages/tv_series/search_tv_series_page.dart';
 import 'package:ditonton/presentation/pages/tv_series/top_rated_tv_series_page.dart';
 import 'package:ditonton/presentation/pages/tv_series/tv_series_detail_page.dart';
 import 'package:ditonton/presentation/provider/tv/tv_list_notifier.dart';
@@ -35,7 +35,7 @@ class _HomeTvSeriesPageState extends State<HomeTvSeriesPage> {
       drawer: AppDrawer(),
       appBar: DefaultAppBar(
         title: "Tv Series",
-        onPressed: () => Navigator.pushNamed(context, SearchTvPage.ROUTE_NAME),
+        onPressed: () => Navigator.pushNamed(context, SearchTvSeriesPage.ROUTE_NAME),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),

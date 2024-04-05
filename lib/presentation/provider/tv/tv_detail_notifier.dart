@@ -15,16 +15,16 @@ class TvDetailNotifier extends ChangeNotifier {
 
   final GetTvDetail getTvDetail;
   final GetTvRecommendations getTvRecommendations;
-  final GetWatchListTvStatus getWatchListStatus;
-  final SaveWatchlistTv saveWatchlist;
-  final RemoveWatchlistTv removeWatchlist;
+  final GetWatchListTvStatus getWatchListTvStatus;
+  final SaveWatchlistTv saveWatchlistTv;
+  final RemoveWatchlistTv removeWatchlistTv;
 
   TvDetailNotifier({
     required this.getTvDetail,
     required this.getTvRecommendations,
-    required this.getWatchListStatus,
-    required this.saveWatchlist,
-    required this.removeWatchlist,
+    required this.getWatchListTvStatus,
+    required this.saveWatchlistTv,
+    required this.removeWatchlistTv,
   });
 
   late TvDetail _tv;
@@ -87,7 +87,7 @@ class TvDetailNotifier extends ChangeNotifier {
   String get watchlistMessage => _watchlistMessage;
 
   Future<void> addWatchlist(TvDetail tv) async {
-    final result = await saveWatchlist.execute(tv);
+    final result = await saveWatchlistTv.execute(tv);
 
     await result.fold(
       (failure) async {
@@ -102,7 +102,7 @@ class TvDetailNotifier extends ChangeNotifier {
   }
 
   Future<void> removeFromWatchlist(TvDetail tv) async {
-    final result = await removeWatchlist.execute(tv);
+    final result = await removeWatchlistTv.execute(tv);
 
     await result.fold(
       (failure) async {
@@ -117,7 +117,7 @@ class TvDetailNotifier extends ChangeNotifier {
   }
 
   Future<void> loadWatchlistStatus(int id) async {
-    final result = await getWatchListStatus.execute(id);
+    final result = await getWatchListTvStatus.execute(id);
     _isAddedToWatchlist = result;
     notifyListeners();
   }
