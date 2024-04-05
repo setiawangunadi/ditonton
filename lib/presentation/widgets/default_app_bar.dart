@@ -2,7 +2,9 @@ import 'package:ditonton/presentation/pages/search_page.dart';
 import 'package:flutter/material.dart';
 
 class DefaultAppBar extends StatefulWidget implements PreferredSizeWidget {
-  const DefaultAppBar({super.key});
+  final String? title;
+
+  const DefaultAppBar({super.key, this.title});
 
   @override
   State<DefaultAppBar> createState() => _DefaultAppBarState();
@@ -15,7 +17,7 @@ class _DefaultAppBarState extends State<DefaultAppBar> {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text('Ditonton'),
+      title: Text(widget.title ?? 'Ditonton'),
       actions: [
         IconButton(
           onPressed: () {

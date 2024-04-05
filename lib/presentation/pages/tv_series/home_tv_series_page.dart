@@ -2,37 +2,40 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ditonton/common/constants.dart';
 import 'package:ditonton/common/state_enum.dart';
 import 'package:ditonton/domain/entities/movie.dart';
-import 'package:ditonton/presentation/pages/tv_series/popular_tv_series_page.dart';
-import 'package:ditonton/presentation/pages/tv_series/top_rated_tv_series_page.dart';
-import 'package:ditonton/presentation/provider/movie_list_notifier.dart';
+import 'package:ditonton/presentation/pages/movie/movie_detail_page.dart';
+import 'package:ditonton/presentation/pages/movie/popular_movies_page.dart';
+import 'package:ditonton/presentation/pages/movie/top_rated_movies_page.dart';
+import 'package:ditonton/presentation/provider/movie/movie_list_notifier.dart';
 import 'package:ditonton/presentation/widgets/app_drawer.dart';
 import 'package:ditonton/presentation/widgets/default_app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class TvSeriesPage extends StatefulWidget {
-  static const ROUTE_NAME = '/tv-series';
+class HomeTvSeriesPage extends StatefulWidget {
+  static const ROUTE_NAME = '/home-tv-series';
 
   @override
-  State<TvSeriesPage> createState() => _TvSeriesPageState();
+  _HomeTvSeriesPageState createState() => _HomeTvSeriesPageState();
 }
 
-class _TvSeriesPageState extends State<TvSeriesPage> {
+class _HomeTvSeriesPageState extends State<HomeTvSeriesPage> {
   @override
   void initState() {
+    super.initState();
     Future.microtask(
-        () => Provider.of<MovieListNotifier>(context, listen: false)
+            () => Provider.of<MovieListNotifier>(context, listen: false)
           ..fetchNowPlayingMovies()
           ..fetchPopularMovies()
           ..fetchTopRatedMovies());
-    super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: AppDrawer(),
-      appBar: DefaultAppBar(),
+      appBar: DefaultAppBar(
+        title: "Tv Series",
+      ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: SingleChildScrollView(
@@ -58,7 +61,7 @@ class _TvSeriesPageState extends State<TvSeriesPage> {
               _buildSubHeading(
                 title: 'Popular',
                 onTap: () =>
-                    Navigator.pushNamed(context, PopularTvSeriesPage.ROUTE_NAME),
+                    Navigator.pushNamed(context, PopularMoviesPage.ROUTE_NAME),
               ),
               Consumer<MovieListNotifier>(builder: (context, data, child) {
                 final state = data.popularMoviesState;
@@ -75,7 +78,7 @@ class _TvSeriesPageState extends State<TvSeriesPage> {
               _buildSubHeading(
                 title: 'Top Rated',
                 onTap: () =>
-                    Navigator.pushNamed(context, TopRatedTvSeriesPage.ROUTE_NAME),
+                    Navigator.pushNamed(context, TopRatedMoviesPage.ROUTE_NAME),
               ),
               Consumer<MovieListNotifier>(builder: (context, data, child) {
                 final state = data.topRatedMoviesState;
@@ -137,7 +140,7 @@ class MovieList extends StatelessWidget {
               onTap: () {
                 Navigator.pushNamed(
                   context,
-                  TvSeriesPage.ROUTE_NAME,
+                  MovieDetailPage.ROUTE_NAME,
                   arguments: movie.id,
                 );
               },

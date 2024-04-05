@@ -5,14 +5,14 @@ import 'package:ditonton/presentation/widgets/movie_card_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class WatchlistMoviesPage extends StatefulWidget {
-  static const ROUTE_NAME = '/watchlist-movie';
+class WatchlistTvSeriesPage extends StatefulWidget {
+  static const ROUTE_NAME = '/watchlist-tv-series';
 
   @override
-  _WatchlistMoviesPageState createState() => _WatchlistMoviesPageState();
+  _WatchlistTvSeriesPageState createState() => _WatchlistTvSeriesPageState();
 }
 
-class _WatchlistMoviesPageState extends State<WatchlistMoviesPage>
+class _WatchlistTvSeriesPageState extends State<WatchlistTvSeriesPage>
     with RouteAware {
   @override
   void initState() {
