@@ -1,10 +1,11 @@
-import 'package:ditonton/presentation/pages/search_page.dart';
+import 'package:ditonton/presentation/pages/movie/search_page.dart';
 import 'package:flutter/material.dart';
 
 class DefaultAppBar extends StatefulWidget implements PreferredSizeWidget {
   final String? title;
+  final void Function()? onPressed;
 
-  const DefaultAppBar({super.key, this.title});
+  const DefaultAppBar({super.key, this.title, this.onPressed});
 
   @override
   State<DefaultAppBar> createState() => _DefaultAppBarState();
@@ -20,9 +21,10 @@ class _DefaultAppBarState extends State<DefaultAppBar> {
       title: Text(widget.title ?? 'Ditonton'),
       actions: [
         IconButton(
-          onPressed: () {
-            Navigator.pushNamed(context, SearchPage.ROUTE_NAME);
-          },
+          onPressed: widget.onPressed ??
+              () {
+                Navigator.pushNamed(context, SearchPage.ROUTE_NAME);
+              },
           icon: Icon(Icons.search),
         )
       ],

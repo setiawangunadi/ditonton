@@ -1,6 +1,6 @@
 import 'package:ditonton/common/state_enum.dart';
-import 'package:ditonton/presentation/provider/movie/popular_movies_notifier.dart';
-import 'package:ditonton/presentation/widgets/movie_card_list.dart';
+import 'package:ditonton/presentation/provider/tv/popular_tv_notifier.dart';
+import 'package:ditonton/presentation/widgets/tv_card_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -16,8 +16,8 @@ class _PopularTvSeriesPageState extends State<PopularTvSeriesPage> {
   void initState() {
     super.initState();
     Future.microtask(() =>
-        Provider.of<PopularMoviesNotifier>(context, listen: false)
-            .fetchPopularMovies());
+        Provider.of<PopularTvNotifier>(context, listen: false)
+            .fetchPopularTv());
   }
 
   @override
@@ -28,7 +28,7 @@ class _PopularTvSeriesPageState extends State<PopularTvSeriesPage> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Consumer<PopularMoviesNotifier>(
+        child: Consumer<PopularTvNotifier>(
           builder: (context, data, child) {
             if (data.state == RequestState.Loading) {
               return Center(
@@ -37,10 +37,10 @@ class _PopularTvSeriesPageState extends State<PopularTvSeriesPage> {
             } else if (data.state == RequestState.Loaded) {
               return ListView.builder(
                 itemBuilder: (context, index) {
-                  final movie = data.movies[index];
-                  return MovieCard(movie);
+                  final tvSeries = data.tv[index];
+                  return TvCard(tvSeries);
                 },
-                itemCount: data.movies.length,
+                itemCount: data.tv.length,
               );
             } else {
               return Center(
