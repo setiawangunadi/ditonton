@@ -5,6 +5,7 @@ import 'package:ditonton/common/exception.dart';
 import 'package:ditonton/common/failure.dart';
 import 'package:ditonton/data/models/tv/tv_detail_model.dart';
 import 'package:ditonton/data/models/tv/tv_model.dart';
+import 'package:ditonton/data/models/tv/tv_table.dart';
 import 'package:ditonton/data/repositories/tv_respository_impl.dart';
 import 'package:ditonton/domain/entities/televisi.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -341,7 +342,7 @@ void main() {
   group('save watchlist', () {
     test('should return success message when saving successful', () async {
       // arrange
-      when(mockLocalDataSource.insertWatchlist(testTvTable))
+      when(mockLocalDataSource.insertWatchlist(argThat(isA<TvTable>())))
           .thenAnswer((_) async => 'Added to Watchlist');
       // act
       final result = await repository.saveWatchlist(testTvDetail);
@@ -351,7 +352,7 @@ void main() {
 
     test('should return DatabaseFailure when saving unsuccessful', () async {
       // arrange
-      when(mockLocalDataSource.insertWatchlist(testTvTable))
+      when(mockLocalDataSource.insertWatchlist(argThat(isA<TvTable>())))
           .thenThrow(DatabaseException('Failed to add watchlist'));
       // act
       final result = await repository.saveWatchlist(testTvDetail);
@@ -360,10 +361,11 @@ void main() {
     });
   });
 
+
   group('remove watchlist', () {
     test('should return success message when remove successful', () async {
       // arrange
-      when(mockLocalDataSource.removeWatchlist(testTvTable))
+      when(mockLocalDataSource.removeWatchlist(argThat(isA<TvTable>())))
           .thenAnswer((_) async => 'Removed from watchlist');
       // act
       final result = await repository.removeWatchlist(testTvDetail);
@@ -373,7 +375,7 @@ void main() {
 
     test('should return DatabaseFailure when remove unsuccessful', () async {
       // arrange
-      when(mockLocalDataSource.removeWatchlist(testTvTable))
+      when(mockLocalDataSource.removeWatchlist(argThat(isA<TvTable>())))
           .thenThrow(DatabaseException('Failed to remove watchlist'));
       // act
       final result = await repository.removeWatchlist(testTvDetail);
@@ -381,6 +383,7 @@ void main() {
       expect(result, Left(DatabaseFailure('Failed to remove watchlist')));
     });
   });
+
 
   group('get watchlist status', () {
     test('should return watch status whether data is found', () async {
